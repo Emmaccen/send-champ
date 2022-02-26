@@ -1,0 +1,27 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.appStyles {
+  .layout {
+    background-color: #f8f8f8;
+    padding: 0px 5%;
+    margin: 0px auto;
+    .container {
+      padding: 5% 0px;
+    }
+    nav {
+      padding: 15px;
+    }
+    footer {
+      width: 90%;
+      margin: auto;
+      padding: 20px 0px;
+    }
+  }
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}

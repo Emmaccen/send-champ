@@ -1,0 +1,28 @@
+.appStyles {
+  .topSection {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    @media (max-width: 800px) {
+      width: 70%;
+      @media (max-width: 500px) {
+        width: 90%;
+      }
+    }
+  }
+  .paymentCardContainer {
+    text-transform: capitalize;
+    padding: 50px 0px;
+    @media (max-width: 950px) {
+      grid-template-columns: repeat(2, 1fr);
+      @media (max-width: 650px) {
+        grid-template-columns: 1fr;
+      }
+    }
+    .paymentCard {
+      height: 250px;
+      width: 100%;
+      border: 1px solid rgb(0, 129, 255);
+    }
+  }
+}
